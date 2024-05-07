@@ -1,3 +1,33 @@
 .margintop{
  margin-top: 12%;
 }
+.text-style
+{
+  margin-bottom: 50px;
+  font-family: "Manrope", Sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: #9e9e9e;
+}
+.imgs-fluid {
+  max-width: 80%;
+ // height: 50%;
+
+
+}
+.box-shadow{
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+}
+.Bg-container {
+  width: 200px;
+  height: 200px;
+  background-color: #f0f0f0;
+}
+
+.slide-in-left {
+  transform: translateX(-100%);
+}
+
+.slide-in-left-active {
+  transform: translateX(0);
+}
