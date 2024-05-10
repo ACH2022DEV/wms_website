@@ -31,3 +31,20 @@
 .slide-in-left-active {
   transform: translateX(0);
 }
+.element{
+  --divider-border-style: solid;
+  --divider-color: #000;
+  --divider-border-width: 3px;
+}
+
+.borderColor {
+  border-style: solid; /* Ajoutez cette ligne pour spécifier le style de bordure */
+  border-width: 2px;
+  border-color: #e87d07;
+}
+.backgroundImage {
+  background-image: url('../../assets/images/Dark_web.jpg');
+  background-size: cover; /* Pour couvrir toute la zone de l'élément */
+  background-position: center; /* Pour centrer l'image */
+  height: 600px;
+}
